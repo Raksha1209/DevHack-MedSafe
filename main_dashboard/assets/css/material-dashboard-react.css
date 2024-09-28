@@ -1,0 +1,130 @@
+/*! 
+ =========================================================
+ * React Material Dashboard - Version 1.9.0, based on Material Dashboard - Version 1.2.0
+ =========================================================
+
+ * Product Link: http://www.creative-tim.com/product/material-dashboard-react
+ * Copyright © 2020 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * Include the copyright and permission notice in all copies or significant portions of the Software.
+
+ */
+ .chart-grid {
+  stroke: rgba(255, 255, 255, 0.2); /* Light grid line color */
+  stroke-width: 1px; /* Thickness of the stroke */
+  stroke-dasharray: 2px; /* Dotted effect for grid */
+}
+
+.chart-series-a .chart-point,
+.chart-series-a .chart-line,
+.chart-series-a .chart-bar,
+.chart-series-a .chart-slice-donut {
+  stroke: rgba(255, 255, 255, 0.8); /* More opaque stroke for series elements */
+}
+
+.chart-label.horizontal.end {
+  display: flex; /* Flexbox for alignment */
+  align-items: flex-start; /* Align items to the start */
+  justify-content: flex-start; /* Start justification */
+  text-align: left; /* Align text to the left */
+}
+
+.chart-label {
+  color: rgba(255, 255, 255, 0.7); /* Label text color */
+}
+
+.chart-line .chart-label,
+.chart-bar .chart-label {
+  display: flex; /* Flex display for chart labels */
+}
+
+html * {
+  -webkit-font-smoothing: antialiased; /* Smooth fonts in WebKit browsers */
+}
+
+body {
+  background-color: #eeeeee; /* Light grey background for the body */
+  color: #3c4858; /* Text color */
+  margin: 0; /* Remove default margin */
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* Font family */
+  font-weight: 300; /* Font weight */
+  line-height: 1.5em; /* Line height for readability */
+}
+
+blockquote p {
+  font-style: italic; /* Italic style for blockquotes */
+}
+
+h1 {
+  font-size: 3em; /* Font size for main headings */
+  line-height: 1.15em; /* Line height for h1 */
+}
+
+/* Other heading styles */
+h2 { font-size: 2.4em; }
+h3 { font-size: 1.825em; line-height: 1.4em; margin: 20px 0 10px; }
+h4 { font-size: 1.3em; line-height: 1.4em; }
+h5 { font-size: 1.25em; line-height: 1.4em; margin-bottom: 15px; }
+h6 { font-size: 1em; text-transform: uppercase; font-weight: 500; }
+
+a {
+  color: #9c27b0; /* Color for links */
+  text-decoration: none; /* No underline for links */
+}
+
+/* Link hover effect */
+a:hover,
+a:focus {
+  color: #89229b; /* Darker color on hover */
+}
+
+footer {
+  padding: 15px 0; /* Padding for footer */
+}
+
+/* Media query for responsive design */
+@media (max-width: 991px) {
+  body, html {
+    position: relative; /* Relative positioning */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+}
+
+.fixed-toolbar {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* Font for fixed plugin */
+  font-weight: 300; /* Font weight */
+  line-height: 1.5em; /* Line height */
+  position: fixed; /* Fixed positioning */
+  top: 180px; /* Position from top */
+  right: 0; /* Align to right */
+  width: 64px; /* Fixed width */
+  background: rgba(0, 0, 0, 0.3); /* Background color */
+  z-index: 1031; /* Stacking order */
+  border-radius: 8px 0 0 8px; /* Rounded corners */
+  text-align: center; /* Centered text */
+}
+
+/* Additional styles for fixed toolbar components */
+
+/* Further styling for dropdowns and badges */
+
+.fixed-toolbar .badge {
+  border: 3px solid #ffffff; /* Border styling */
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: inline-block; /* Inline block for layout */
+  height: 23px; /* Height */
+  margin-right: 5px; /* Right margin */
+  width: 23px; /* Width */
+  background-color: rgba(30, 30, 30, 0.97); /* Background color */
+}
+
+/* Active and hover states for badges */
+
+.fixed-toolbar h5 {
+  font-size: 14px; /* Font size for toolbar headings */
+  margin: 10px; /* Margin */
+}
